@@ -56,8 +56,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background: url(/images/dc-metro.jpg) no-repeat center center;
+  background-size: cover; }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -70,6 +70,9 @@ a {
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 2rem 1rem; } }
+
+.photo-credit {
+  font-size: 10px; }
 
 .project-name {
   margin-top: 0;
@@ -112,7 +115,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #5F9EA0; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
